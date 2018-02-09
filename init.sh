@@ -1,11 +1,11 @@
 cd ..
-# mkdir ../blank-string
+mkdir ../blank-string
 cd blank-string
 
-# git clone --depth 1 git@github.com:blank-string/blank-string.github.io.git blankstring.com
-# git clone --depth 1 git@github.com:blank-string/data.git
-# git clone --depth 1 git@github.com:blank-string/rss.git
-# git clone --depth 1 git@github.com:blank-string/media.git
+git clone --depth 1 git@github.com:blank-string/blank-string.github.io.git blankstring.com
+git clone --depth 1 git@github.com:blank-string/data.git
+git clone --depth 1 git@github.com:blank-string/rss.git
+git clone --depth 1 git@github.com:blank-string/media.git
 
 echo installing data
 cd data
