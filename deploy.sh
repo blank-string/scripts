@@ -2,9 +2,19 @@ cd ../blank-string
 
 npm whoami || npm login
 
+echo CREATING NEW EPISODE
+
 ./new-episode.sh
+
+echo UPDATING RSS
+
 ./rss.sh
+
+echo UPLOADING MEDIA - THIS TAKES AGES
+
 ./media.sh
+
+echo UPDATING WEBSITE
 ./website.sh
 
 echo All done
