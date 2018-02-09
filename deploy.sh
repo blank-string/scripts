@@ -1,7 +1,3 @@
-cd ../blank-string
-
-npm whoami || npm login
-
 echo CREATING NEW EPISODE
 
 ./new-episode.sh

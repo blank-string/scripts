@@ -6,13 +6,13 @@ cd data
 npm run new
 
 if [ $? -eq 0 ]; then
-  echo success
+    npm run build
+    git add -A
+    git commit -m 'next episode'
+    npm version major
+    git push
+    git push --tags
+    npm publish
+    cd ..
 fi
 
-git add -A
-git commit -m 'next episode'
-npm version major
-git push
-git push --tags
-npm publish
-cd ..
