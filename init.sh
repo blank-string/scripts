@@ -19,6 +19,10 @@ cd -
 
 echo installing media
 cd media
+wget https://github.com/blank-string/media/archive/gh-pages.zip
+unzip gh-pages.zip
+mv gh-pages media
+rm gh-pages.zip
 npm i
 cd -
 
